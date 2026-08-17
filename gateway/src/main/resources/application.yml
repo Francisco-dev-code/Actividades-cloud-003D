@@ -15,8 +15,10 @@ spring:
                 - Path=/api/v1/posts/**
               filters:
                 - RewritePath=/api/v1/(?<segment>.*), /$\{segment}
+                - RemoveResponseHeader=Access-Control-Allow-Origin
+                - RemoveResponseHeader=Access-Control-Allow-Credentials
 
 lab:
   cors:
-    enabled: false
+    enabled: true
     allowed-origin: http://localhost:5500
