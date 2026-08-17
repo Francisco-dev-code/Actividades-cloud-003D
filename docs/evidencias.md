@@ -1,8 +1,8 @@
 # Evidencias · Laboratorio API Gateway
 
 ## Integrantes
-- Nombre:
-- Nombre:
+- Nombre:Francisco Gonzalez Chea
+- Nombre:Gabriel Mayorga 
 - Nombre:
 
 ## 1. Backend directo
